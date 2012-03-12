@@ -1,3 +1,4 @@
+call pathogen#infect() 
 
 set number                      " Display Line Numbers
 set listchars=tab:▸\ ,eol:¬     " Tab [CTRL-V u25b8], EOL [ALT-L]
