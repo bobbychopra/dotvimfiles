@@ -1,11 +1,18 @@
-Installation:
+*NIX Installation:
     git clone git://github.com/bobbychopra/dotvimfiles.git ~/.vim
     cd ~/.vim
     git submodule init
     git submodule update
 
-Create symlinks:
+  Create symlinks:
     ln -s ~/.vim/vimrc ~/.vimrc
 
-Create hardlinks (for windows):
+
+WINDOWS Installation
+    cd C:\Program Files\Vim
+    git clone git://github.com/bobbychopra/dotvimfiles.git vimfiles
+    git submodule init
+    git submodule update
+
+  Create hardlinks (for windows):
     C:\Program Files\Vim>fsutil hardlink create _vimrc vimfiles\vimrc
