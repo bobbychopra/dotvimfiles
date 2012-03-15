@@ -7,7 +7,7 @@ set tabstop=4 softtabstop=4 shiftwidth=4 expandtab
 
 " Backspace-l allows for toggle show tab&eol
 nmap <leader>l :set list!<CR>
-
+nmap <leader>f :NERDTree<CR>
 
 
 if has("autocmd")               " Only if autocmd is available
